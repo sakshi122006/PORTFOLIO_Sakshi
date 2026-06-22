@@ -1,8 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/portfolio/$1"
-    }
-  ]
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": "portfolio",
+  "public": true
 }
